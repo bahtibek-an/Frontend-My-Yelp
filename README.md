@@ -18,7 +18,8 @@ It's an excellent timing since you've just completed your training on AWS.
 A mix of Amplify, lambda and other technology will be perfect for this project.
 
 A little about `Yelp` (source wikipedia):
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_yelp.png" width="20%"/>
+
+<img src="https://storage.googleapis.com/qwasar-public/track-web/my_yelp.png" width="30%" style="display: block;"/>
 
 
 Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman. Yelp grew in usage and raised several rounds of funding in the following years. By 2010, it had $30 million in revenue, and the website had published about 4.5 million crowd-sourced reviews. From 2009 to 2012, Yelp expanded throughout Europe and Asia. In 2009, it entered unsuccessful negotiations to be acquired by Google. Yelp became a public company via an initial public offering in March 2012 and became profitable for the first time two years later.
