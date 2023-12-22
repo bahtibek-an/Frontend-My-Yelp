@@ -18,23 +18,19 @@ const App = ({ signOut, user }) => {
 
   useEffect(() => {
     fetchTodos();
-  }, []);
+  }, [todos]);
 
   async function fetchTodos() {
     try {
-      // For demo purposes, using fake data
-      const fakeData = [
-        { id: 1, name: "Tashkent Plov Center", description: "All types of food have", city: "Tashkent" },
-        { id: 2, name: "Milliy taomlar", description: "uzbek milliy taomlari", city: "Tashkent" },
-        { id: 3, name: "Kafe Zebo", description: "milliy taomlar, va buyurtma taomlar", city: "Chirchiq" },
-        
-      ];
-
-      setTodos(fakeData);
+      const todoData = await API.graphql(graphqlOperation(listTodos));
+      const todos = todoData.data.listTodos.items;
+      setTodos(todos);
     } catch (err) {
       console.log("error fetching todos", err);
     }
   }
+
+ 
 
   async function addTodo() {
     try {
