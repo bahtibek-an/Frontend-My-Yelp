@@ -1,7 +1,0 @@
-{
-    "AppSyncApiName": "amplifyyelp",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "DynamoDBEnableServerSideEncryption": false,
-    "S3DeploymentBucket": "amplify-amplifyyelp-dev-124948-deployment",
-    "S3DeploymentRootKey": "amplify-appsync-files/5e351bf3079cc7dbcc10b929af876f84a093f9e5"
-}
