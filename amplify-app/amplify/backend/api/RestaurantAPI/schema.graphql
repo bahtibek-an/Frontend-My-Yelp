@@ -1,0 +1,10 @@
+type Restaurant @model  @auth(
+    rules: [
+      { allow: public, operations: [read, create, update, delete], provider: apiKey }
+    ]
+  ) {
+  id: ID!
+  name: String!
+  description: String!
+  city: String!
+}
