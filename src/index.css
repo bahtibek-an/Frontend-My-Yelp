@@ -1,0 +1,16 @@
+body {
+  background-image: url(img/qGrLQA.gif);
+  background-size:cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table, th, td {
+  background-size: cover;
+  border:1px solid rgb(230, 20, 20);
+  color: rgb(228, 231, 6);
+  padding: 5px;
+}
