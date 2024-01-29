@@ -23,7 +23,7 @@ Once the installation is complete, you can run the project with the following co
 
 bash
 # Start the server
-npm run server
+npm run test
 
 # Start the client
 npm start
