@@ -33,4 +33,4 @@ npm install
 npm start
 
 # Usage
-Access the My Yelp application by clicking on the following Netlify URL <a href="https://yelp-firebase.netlify.app/"> </a>
+Access the My Yelp application by clicking on the following Netlify URL  "https://yelp-firebase.netlify.app/"
