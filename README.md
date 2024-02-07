@@ -1,47 +1,51 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Yelp
+# Frontend My Yelp Project
+
+## Task
+Create a simple React application for managing Todos using AWS Amplify.
+
 ## Description
-<img src="https://storage.googleapis.com/qwasar-public/track-web/amplify_reactjs.png" width="80%"/>
-Remember to git add && git commit && git push each exercise!
+This project is a basic web application for managing Restaurants. It leverages AWS Amplify for authentication, API integration, and data storage. Users can sign in, create, view Restaurants. The application includes features such as a navigation bar, a modal for creating Restaurants, and a table for displaying Restaurants.
 
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
+## Installation
 
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
+Follow the steps below to set up and run the project locally:
 
-My Yelp	
-Submit directory	.
-Submit files	my_yelp_url.txt - *.html
-## Description
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+   cd your-project
+   ```
 
-You've been assigned by your manager to deploy an old application to the `cloud`.
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-It's an excellent timing since you've just completed your training on AWS.
-A mix of Amplify, lambda and other technology will be perfect for this project.
+3. **Configure AWS Amplify:**
+   - Run `amplify init` to initialize your Amplify project.
+   - Follow the prompts to set up your backend resources.
 
-A little about `Yelp` (source wikipedia):
+4. **Run the Application:**
+   ```bash
+   npm start
+   ```
 
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_yelp.png" width="30%" style="display: block;"/>
+5. **Access the Application:**
+   Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
 
+## Usage
+### Sign In
 
-Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman. Yelp grew in usage and raised several rounds of funding in the following years. By 2010, it had $30 million in revenue, and the website had published about 4.5 million crowd-sourced reviews. From 2009 to 2012, Yelp expanded throughout Europe and Asia. In 2009, it entered unsuccessful negotiations to be acquired by Google. Yelp became a public company via an initial public offering in March 2012 and became profitable for the first time two years later.
+- Launch the application and sign in with your Amplify authentication credentials.
 
-As of December 31, 2020, approximately 206.3 million reviews were available on its business listing pages. In 2020, the company had 43 million unique visitors to its desktop webpages and 52 million unique visitors to its mobile sites. Over fifty percent of the company's audience has annual household income of more than $100,000.
+### View Todos
 
-The company has been accused of using unfair practices to raise revenue from the businesses that are reviewed on its site – e.g., by presenting more negative review information for companies that do not purchase its advertising services or by prominently featuring advertisements of the competitors of such non-paying companies or conversely by excluding negative reviews from companies’ overall rating on the basis that the reviews “are not currently recommended." There have also been complaints of aggressive and misleading tactics by some of its advertising sales representatives. The company's review system's reliability has also been affected by the submission of fake reviews by external users, such as false positive reviews submitted by a company to promote its own business or false negative reviews submitted about competing businesses – a practice sometimes known as "astroturfing", which the company has tried to combat in various ways.
+- Once signed in, you will see a list of existing Restaurants.
 
-## SPECIFICATIONS
-Deploy an application built in ReactJS into Amplify (AWS) using authentification.
+### Create Todo
+- Click the "Create Restaurant" button to open the modal.
+- Enter the name and description for the new Restaurant.
+- Click "Create Restaurant" to add the Restaurant to the list.
 
-We've provided to you the [code](https://storage.googleapis.com/qwasar-public/track-web/my_yield.zip) of an application and we would like it to be hosted in the cloud.
-This application is also using GraphQL, you might have to take a look. :)
-
-You are one hundred percent allowed to edit the source code; your mission is simple: make it work.
-
-## REQUIREMENTS
-A fully hosted version in the cloud. (at least until the correction happened)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
-
-You will write the url in `my_yelp_url.txt`. Nothing more, just the URL.
-
-Your .gitignore must remove node_modules/
+### Sign Out
+- Click the "Sign out" button to sign out from the application.
