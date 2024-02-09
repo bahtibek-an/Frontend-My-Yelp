@@ -1,0 +1,31 @@
+.login {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.login-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-cont form {
+  display: flex;
+  flex-direction: column;
+}
+.login .wrapper{
+  display: flex;
+  gap: 80px;
+}
+
+.login .wrapper .login-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-img img{
+  width: 400px;
+  height: 350px;
+  
+}
