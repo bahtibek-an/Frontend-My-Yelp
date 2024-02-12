@@ -1,1 +1,1 @@
-https://yelp-firebase.netlify.app/
+https://my-yelpp.netlify.app/
