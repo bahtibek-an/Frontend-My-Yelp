@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import {
   Avatar,
@@ -32,8 +31,10 @@ const Main = ({ accountList, getAccountList }) => {
         const data = await getDocs(collection(db, "accounts"));
         const accounts = data.docs.map((doc) => doc.data());
         getAccountList(accounts);
+        sessionStorage.setItem("currentUser", JSON.stringify(user));
       } else {
         getAccountList([]);
+        sessionStorage.removeItem("currentUser");
       }
     });
 
@@ -43,10 +44,10 @@ const Main = ({ accountList, getAccountList }) => {
   const getItemList = async () => {
     try {
       const data = await getDocs(itemCollectionRef);
-      const filteredData = data.docs.map((doc) => ({
+      const filteredData = data.docs.map((doc, index) => ({
         ...doc.data(),
         id: doc.id,
-        itemId: doc.itemId,
+        itemId: index + 1,
       }));
 
       setItemList(filteredData);
@@ -59,6 +60,11 @@ const Main = ({ accountList, getAccountList }) => {
   useEffect(() => {
     getItemList();
   }, [currentUser, itemCollectionRef]);
+
+  useEffect(() => {
+    const userFromSessionStorage = sessionStorage.getItem("currentUser");
+    setCurrentUser(JSON.parse(userFromSessionStorage));
+  }, []);
 
   const logoutHandler = () => {
     signOut(getAuth());
