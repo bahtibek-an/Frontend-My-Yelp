@@ -4,7 +4,7 @@ This application is designed for interacting with local businesses, enabling use
 
 ## Hosting Links
 
-[Netlify link](https://my-yelp-app-sardorxoja-tojixojayev.netlify.app/login)
+https://my-yelp-app-sardorxoja-tojixojayev.netlify.app
 
 ## Installation
 To install the app, follow these steps:
