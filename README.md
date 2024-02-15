@@ -5,10 +5,12 @@ Create yelp clone project:
 - Forgot Password
 - Create Restaurants
 - Show Restaurants list
+[Demo Project](https://main.d1mfls6oirve3i.amplifyapp.com/)
 
 # Problem and its solution
 The function I added
 There were only version changes, everything else was according to the instructions 
+
 
 ## Available Scripts
 
