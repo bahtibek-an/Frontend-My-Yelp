@@ -1,0 +1,27 @@
+.form-create{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.span-erorr{
+    color: red;
+    font-size: 14px;
+    position: absolute;
+}
+.first{
+    top: 80px;
+}
+.create_wrape{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: black;
+    flex-direction: column;
+}
+.two{
+    top: 160px;
+}

@@ -1,0 +1,32 @@
+    type newUser {
+        id:ID!
+        name:String!
+        email:String!
+        password:String!
+        posts:Posts!
+    }
+    type userInput{
+        name:String!
+        email:String!
+        password:String!
+    }
+    type Posts{
+        id:ID!
+        restaurantName:String!
+        restaurantImage:String!
+        restaurantDesc:String!
+    }
+    type postInput {
+        restaurantName:String!
+        restaurantImage:String!
+        restaurantDesc:String!
+    }
+    type User {
+        email:String
+        password:String!
+        posts:Posts!
+    }
+    type Mutation{
+        addPost(post:postInput!)
+        addUser(user:userInput!)
+    }

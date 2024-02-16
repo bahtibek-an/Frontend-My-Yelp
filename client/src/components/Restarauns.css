@@ -1,0 +1,87 @@
+.posts_wrape{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 30px;
+}
+.home_wrape{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.post_info_wrape{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.posts_info{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.post_name{
+    padding: 3px;
+    background-color: rgb(60, 60, 65);
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    padding: 2px;
+    background-color: #fff;
+    text-align: start;
+    display: flex;
+    border-radius: 9px;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+}
+.null_post{
+    display: none;
+}
+.block p {
+    margin-top: 0;
+}
+.block h1 {
+    margin-bottom: 0;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post_block{
+    display: flex;
+    gap: 30px;
+}
+.logogut_btn{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    position: fixed;
+    text-decoration: none;
+    background-color: rgba(232, 201, 90, 0.893);
+    padding: 19px 50px;
+    border-radius: 9px;
+    color: #fff;
+}
+.create__btn{
+    background-color: rgb(151, 148, 143);
+    position: absolute;
+    left: 170px;
+    position: fixed;
+}
