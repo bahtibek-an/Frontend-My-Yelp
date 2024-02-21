@@ -1,5 +1,5 @@
 # Welcome To my Yelp project 
-demo : https://polite-muffin-1ffeee.netlify.app
+demo : https://zippy-tarsier-28498d.netlify.app/
 
 
 ## Description
