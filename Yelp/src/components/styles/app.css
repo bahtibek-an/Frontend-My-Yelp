@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+}
+
+.input{ 
+    width: 75%;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 20px;
+    border: none;
+}
+
+.create {
+    color: #fff;
+    height: 20%;
+    margin-left: 40px;
+    margin-top: 65px;
+    width: 20%;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+} 
+

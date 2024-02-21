@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(130, 244, 240);
+}
+
+.input {
+    width: 75%;
+    margin-left: 11%;
+    margin-top: 50px;
+}
+
+.create {
+    background-color: rgb(136, 16, 180);
+    margin-left: 90%;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    height: 60px;
+    width: 110px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(190, 37, 245);
+}
