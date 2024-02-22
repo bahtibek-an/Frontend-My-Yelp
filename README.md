@@ -1,5 +1,5 @@
 # Welcome To my Yelp project 
-demo : https://zippy-tarsier-28498d.netlify.app/
+demo : https://yelp-client.vercel.app/
 
 
 ## Description
