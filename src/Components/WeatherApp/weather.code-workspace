@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "D:/27 10 2021"
+		},
+		{
+			"path": "../../../../../random-colors"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "random-colors"
+	}
+}
