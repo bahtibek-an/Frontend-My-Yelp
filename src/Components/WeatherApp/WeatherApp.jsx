@@ -13,7 +13,7 @@ const WeatherApp = () => {
     const [weatherData, setWeatherData] = useState(null);
     const [cityInput, setCityInput] = useState("");
     const [loading, setLoading] = useState(false);
-    const [wicon, setWicon] = useState(cloud_icon); // Initialize wicon state
+    const [wicon, setWicon] = useState(cloud_icon);
 
     const api_key = "6b6b0a4b57e94da1d869b0b89458cee0";
 
@@ -52,7 +52,7 @@ const WeatherApp = () => {
             setWicon(weatherIcon);
         } catch (error) {
             console.error("Error fetching weather data:", error);
-            // You can handle errors here, such as showing an error message to the user
+
         } finally {
             setLoading(false);
         }
