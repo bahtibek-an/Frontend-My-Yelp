@@ -1,47 +1,70 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Yelp
-## Description
-<img src="https://storage.googleapis.com/qwasar-public/track-web/amplify_reactjs.png" width="80%"/>
-Remember to git add && git commit && git push each exercise!
+# Getting Started with Create React App
 
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
+## Available Scripts
 
-My Yelp	
-Submit directory	.
-Submit files	my_yelp_url.txt - *.html
-## Description
+In the project directory, you can run:
 
-You've been assigned by your manager to deploy an old application to the `cloud`.
+### `npm start`
 
-It's an excellent timing since you've just completed your training on AWS.
-A mix of Amplify, lambda and other technology will be perfect for this project.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-A little about `Yelp` (source wikipedia):
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_yelp.png" width="30%" style="display: block;"/>
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman. Yelp grew in usage and raised several rounds of funding in the following years. By 2010, it had $30 million in revenue, and the website had published about 4.5 million crowd-sourced reviews. From 2009 to 2012, Yelp expanded throughout Europe and Asia. In 2009, it entered unsuccessful negotiations to be acquired by Google. Yelp became a public company via an initial public offering in March 2012 and became profitable for the first time two years later.
+### `npm run build`
 
-As of December 31, 2020, approximately 206.3 million reviews were available on its business listing pages. In 2020, the company had 43 million unique visitors to its desktop webpages and 52 million unique visitors to its mobile sites. Over fifty percent of the company's audience has annual household income of more than $100,000.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The company has been accused of using unfair practices to raise revenue from the businesses that are reviewed on its site – e.g., by presenting more negative review information for companies that do not purchase its advertising services or by prominently featuring advertisements of the competitors of such non-paying companies or conversely by excluding negative reviews from companies’ overall rating on the basis that the reviews “are not currently recommended." There have also been complaints of aggressive and misleading tactics by some of its advertising sales representatives. The company's review system's reliability has also been affected by the submission of fake reviews by external users, such as false positive reviews submitted by a company to promote its own business or false negative reviews submitted about competing businesses – a practice sometimes known as "astroturfing", which the company has tried to combat in various ways.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## SPECIFICATIONS
-Deploy an application built in ReactJS into Amplify (AWS) using authentification.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-We've provided to you the [code](https://storage.googleapis.com/qwasar-public/track-web/my_yield.zip) of an application and we would like it to be hosted in the cloud.
-This application is also using GraphQL, you might have to take a look. :)
+### `npm run eject`
 
-You are one hundred percent allowed to edit the source code; your mission is simple: make it work.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## REQUIREMENTS
-A fully hosted version in the cloud. (at least until the correction happened)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-You will write the url in `my_yelp_url.txt`. Nothing more, just the URL.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Your .gitignore must remove node_modules/
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
