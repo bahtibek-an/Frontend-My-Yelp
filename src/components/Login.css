@@ -1,0 +1,46 @@
+.login-container {
+    background-size:cover;
+    height: 100vh;
+    transition: box-shadow 300px;
+}
+
+.login-container:hover {
+    box-shadow: 0px 0px 10px rgba(255, 30, 0, 0.7),0px 0px 10px rgba(0, 38, 255, 0.7),
+    0px 0px 10px rgba(0, 255, 98, 0.7);
+}
+
+.login-form {
+    background-size:cover;
+    color:aquamarine;
+    margin-top: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.7) ,0px 0px 10px rgba(0, 38, 255, 0.7),
+    0px 0px 10px rgba(0, 255, 98, 0.7);
+    transition: box-shadow 300ms;
+}
+
+.login-form:hover {
+    box-shadow: 2px 5px 10px rgba(10, 69, 233, 0.7) ,0px 0px 10px rgba(255, 0, 170, 0.7),
+    0px 0px 10px rgba(1, 255, 0, 0.7);
+}
+
+.login-container, .login-form {
+    cursor: pointer;
+}
+
+.login-container:hover, .login-form:hover {
+    transform: scale(1.02); 
+}
+
+.h1{
+    color:aquamarine;
+}
+.h1 {
+color:chartreuse;
+}
+.h3 {
+color:chartreuse;
+}
