@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg,#FFB6C1 30%, #DDA0DD,#FFCCCC);
+  position: relative;
+}
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.auth-form-container{
+  padding: 5rem;
+  border: 1px,solid,white ;
+  border-radius: 10px ;
+  margin: 0.5rem;
+}
+
+.email, .password{
+  color: white;
+}
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input{
+  height: 50px;
+  margin: 0.25rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+button{
+  height: 50px;
+  margin: 0.25rem 0;
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #FFB6C1;
+
+}
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+
+.form p{
+  font-weight: bold;
+  padding: 0 10px;
+
+}
+
+.form__title{
+  text-align: center;
+}
+
+.table{
+  margin: 30px 0;
+  width: 900px; 
+  border: 2px solid violet; 
+  border-radius: 10px;
+
+}
+
+.item{
+  text-align: center;
+}
+
+th,td{
+  padding: 10px;
+  border: 2px solid violet;
+  border-radius: 10px;
+}
+
